@@ -11,19 +11,51 @@
                 <input type="text" placeholder="Nome">
                 <input type="text" placeholder="Idade">
                 <input type="text" placeholder="Grau Parentesco">
-            
+
             </span>
         </div>
     </li>
     <li>
         <div class="collapsible-header"><i class="material-icons">check</i>Selecionar Doenças</div>
         <div class="collapsible-body">
-            <span>Lorem ipsum dolor sit amet.</span>
+            <span>
+                <form action="#" class="row">
+
+                    @forelse($doencas as $doenca)
+
+
+                    <label class="col s6">
+                        <input type="checkbox" />
+                        <span>{{$doenca->nome}}</span>
+                    </label>
+
+
+                    @empty
+
+                    @endforelse
+                    <div class="col s12">
+                        <input type="submit" class="btn" value="Registrar">
+                    </div>
+
+                </form>
+            </span>
         </div>
     </li>
     <li>
         <div class="collapsible-header"><i class="material-icons">history</i>Meu Histórico</div>
-        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        <div class="collapsible-body">
+            <span>
+                A) HEMOGRAMA. ...<br/>
+                1- Hemácias (glóbulos vermelhos) ...<br/>
+                2- Leucócitos (glóbulos brancos) ...<br/>
+                3- Plaquetas. ...<br/>
+                B) Tempo de tromboplastina ativada (PTT ou TTP) e tempo de protrombina (TAP ou TP) ...<br/>
+                C) COLESTEROL. ...<br/>
+                D) UREIA e CREATININA. ...<br/>
+                E) GLICOSE.<br/>
+                
+            </span>
+        </div>
     </li>
 </ul>
 

@@ -3,7 +3,7 @@
 <nav>
     <div class="nav-wrapper {{$cor_principal}}">
         <div class="container">
-            <a href="/" class="brand-logo"><img src="{{url('/imagem/arquivo/logo.png')}}" height="65px"/></a>
+            <a href="/" class="brand-logo"><img src="{{url('/imagem/arquivo/logo.png')}}" height="55px"/></a>
         </div>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">

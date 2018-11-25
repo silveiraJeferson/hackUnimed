@@ -25,7 +25,9 @@ class PerfilController extends Controller
     }
     
     public function getDoencas(){
-        return view('uni.perfil.doencas');
+        $doencas= DB::table('doencas')->get();
+        
+        return view('uni.perfil.doencas', compact('doencas'));
     }
     
     

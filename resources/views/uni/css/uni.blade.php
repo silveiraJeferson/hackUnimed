@@ -6,7 +6,7 @@
     }
 
     main {
-        flex: 1 0 auto;
+/*        flex: 1 0 auto;*/
     }
     .form_log_left{
         border-right: 1px solid #ccc;
@@ -41,8 +41,9 @@
         border-radius: 2;
     }
     .inicio{
-        background-image: url('/imagem/arquivo/bonsai.jpeg');
-        
+        background-image: url('/imagem/arquivo/fundo_degrade.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
         background-attachment: fixed;
         background-position: center; 
 
@@ -69,9 +70,10 @@
     }
     .titulo_inicio{
         position:relative;
-        width: 500px;
-        left:10px;
-        top:200px;
+        width: 600px;
+        left:470px;
+        top:70px;
+        
     }
 
 </style>

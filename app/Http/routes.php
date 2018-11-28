@@ -18,6 +18,7 @@ Route::get('imagem/arquivo/{nome}', [
 
 
 
+Route::controller('/colaborador', 'ColaboradorController');
 Route::controller('/perfil', 'PerfilController');
 Route::resource('/especialidades', 'EspecialidadesController');
 Route::resource('/beneficiario', 'BeneficiarioController');

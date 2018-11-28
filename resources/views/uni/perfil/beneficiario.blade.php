@@ -19,6 +19,7 @@
             <a href="/perfil/dependente" class="collection-item ">Dependentes</a>
             <a href="#!" class="collection-item">Histórico</a>
             <a href="/perfil/especialidades" class="collection-item">Especialidades</a>
+            <a href="/colaborador/lista" class="collection-item">Médicos</a>
         </div>
         
         </div>
